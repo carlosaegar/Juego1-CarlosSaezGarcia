@@ -8,11 +8,11 @@
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1905636789]
 
 [node name="Ring" type="Sprite2D" parent="." unique_id=381194518]
-position = Vector2(579.99994, 327.25)
+position = Vector2(-5, 13)
 scale = Vector2(11.619999, 10.758332)
 texture = ExtResource("1_qogyp")
 
 [node name="Boxeador" type="Sprite2D" parent="." unique_id=624045972]
-position = Vector2(479, 188.99998)
+position = Vector2(14, -16)
 scale = Vector2(3.2, 3.05)
 texture = ExtResource("2_jham1")
