@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://gsk3nipqb5h0"]
+
+[ext_resource type="Texture2D" uid="uid://4oapenkgm8bd" path="res://assets/sprites/boxingring.png" id="1_qogyp"]
+[ext_resource type="Texture2D" uid="uid://i7kux8dl47yb" path="res://assets/sprites/ogacover.jpg" id="2_jham1"]
+
+[node name="Esena1" type="Node2D" unique_id=605605844]
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1905636789]
+
+[node name="Ring" type="Sprite2D" parent="." unique_id=381194518]
+position = Vector2(579.99994, 327.25)
+scale = Vector2(11.619999, 10.758332)
+texture = ExtResource("1_qogyp")
+
+[node name="Boxeador" type="Sprite2D" parent="." unique_id=624045972]
+position = Vector2(479, 188.99998)
+scale = Vector2(3.2, 3.05)
+texture = ExtResource("2_jham1")
