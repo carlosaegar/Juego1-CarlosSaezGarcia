@@ -2,14 +2,14 @@
 
 [ext_resource type="Texture2D" uid="uid://4oapenkgm8bd" path="res://assets/sprites/boxingring.png" id="1_qogyp"]
 [ext_resource type="Texture2D" uid="uid://dicjbrf8j4qct" path="res://assets/sprites/__Boxer2_Block_001.png" id="2_3ard5"]
-[ext_resource type="Script" uid="uid://dsvs3s1fqifvl" path="res://scenes/levels/ring.gd" id="2_81xpm"]
+[ext_resource type="Script" uid="uid://dsvs3s1fqifvl" path="res://scripts/ring.gd" id="2_81xpm"]
 [ext_resource type="Script" uid="uid://c07wxk6wfqce7" path="res://scripts/sprite_2d.gd" id="3_jham1"]
 [ext_resource type="Texture2D" uid="uid://calq6gft81ki1" path="res://assets/sprites/__Boxing04_PunchLeft_003.png" id="4_erbq1"]
-[ext_resource type="Script" uid="uid://cww2a0cgvtwnr" path="res://scenes/levels/boxeador_1.gd" id="5_erbq1"]
+[ext_resource type="Script" uid="uid://cww2a0cgvtwnr" path="res://scripts/boxeador_1.gd" id="5_erbq1"]
 [ext_resource type="Texture2D" uid="uid://crrddxn76kqyq" path="res://assets/sprites/ROUND1.png" id="7_b2bpc"]
-[ext_resource type="Script" uid="uid://d0wvoao8rl1e5" path="res://scenes/levels/round_1.gd" id="8_8ua58"]
-[ext_resource type="Texture2D" uid="uid://mcbnbgv7atj5" path="res://assets/camera (1).png" id="9_f1mxi"]
-[ext_resource type="Script" uid="uid://dxh2jv3x15ttc" path="res://scenes/levels/camara.gd" id="10_jtgb7"]
+[ext_resource type="Script" uid="uid://d0wvoao8rl1e5" path="res://scripts/round_1.gd" id="8_8ua58"]
+[ext_resource type="Texture2D" uid="uid://mcbnbgv7atj5" path="res://assets/sprites/camera (1).png" id="9_f1mxi"]
+[ext_resource type="Script" uid="uid://dxh2jv3x15ttc" path="res://scripts/camara.gd" id="10_jtgb7"]
 
 [node name="Esena1" type="Node2D" unique_id=605605844]
 
