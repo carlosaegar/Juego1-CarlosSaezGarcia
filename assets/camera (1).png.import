@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i7kux8dl47yb"
-path="res://.godot/imported/ogacover.jpg-ad0cfde8203d375f1463824190ffe2be.ctex"
+uid="uid://mcbnbgv7atj5"
+path="res://.godot/imported/camera (1).png-1de58bb6c32f71dfc571d8c708d5f97f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/ogacover.jpg"
-dest_files=["res://.godot/imported/ogacover.jpg-ad0cfde8203d375f1463824190ffe2be.ctex"]
+source_file="res://assets/camera (1).png"
+dest_files=["res://.godot/imported/camera (1).png-1de58bb6c32f71dfc571d8c708d5f97f.ctex"]
 
 [params]
 
