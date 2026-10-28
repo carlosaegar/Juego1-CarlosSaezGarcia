@@ -4,12 +4,16 @@
 [ext_resource type="Texture2D" uid="uid://dicjbrf8j4qct" path="res://assets/sprites/__Boxer2_Block_001.png" id="2_3ard5"]
 [ext_resource type="Script" uid="uid://dsvs3s1fqifvl" path="res://scripts/ring.gd" id="2_81xpm"]
 [ext_resource type="Script" uid="uid://c07wxk6wfqce7" path="res://scripts/sprite_2d.gd" id="3_jham1"]
-[ext_resource type="Texture2D" uid="uid://calq6gft81ki1" path="res://assets/sprites/__Boxing04_PunchLeft_003.png" id="4_erbq1"]
 [ext_resource type="Script" uid="uid://cww2a0cgvtwnr" path="res://scripts/boxeador_1.gd" id="5_erbq1"]
 [ext_resource type="Texture2D" uid="uid://crrddxn76kqyq" path="res://assets/sprites/ROUND1.png" id="7_b2bpc"]
 [ext_resource type="Script" uid="uid://d0wvoao8rl1e5" path="res://scripts/round_1.gd" id="8_8ua58"]
 [ext_resource type="Texture2D" uid="uid://mcbnbgv7atj5" path="res://assets/sprites/camera (1).png" id="9_f1mxi"]
+[ext_resource type="Texture2D" uid="uid://128hbo5fb06y" path="res://assets/sprites/round1_hombre.png" id="10_drb53"]
 [ext_resource type="Script" uid="uid://dxh2jv3x15ttc" path="res://scripts/camara.gd" id="10_jtgb7"]
+[ext_resource type="Script" uid="uid://q6ssj2gnora6" path="res://scenes/levels/round_1.gd" id="11_cu60p"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_8ua58"]
+load_path = "res://.godot/imported/__Boxing04_PunchLeft_003.png-e3dd971c03f1bae5d8a707aa1a9a8359.ctex"
 
 [node name="Esena1" type="Node2D" unique_id=605605844]
 
@@ -23,6 +27,7 @@ script = ExtResource("2_81xpm")
 
 [node name="boxeador2" type="Sprite2D" parent="." unique_id=2070042031]
 position = Vector2(336.00006, 76)
+rotation = 6.2831855
 scale = Vector2(0.29905915, 0.28234884)
 texture = ExtResource("2_3ard5")
 script = ExtResource("3_jham1")
@@ -30,25 +35,34 @@ script = ExtResource("3_jham1")
 [node name="boxeador1" type="Sprite2D" parent="." unique_id=251491659]
 position = Vector2(-146, -48.999992)
 scale = Vector2(0.5315631, 0.49846625)
-texture = ExtResource("4_erbq1")
+texture = SubResource("CompressedTexture2D_8ua58")
 script = ExtResource("5_erbq1")
 
 [node name="round1" type="Sprite2D" parent="." unique_id=1551844805]
+visible = false
 position = Vector2(-0.9999924, 235.99994)
 scale = Vector2(0.09765626, 0.115451485)
 texture = ExtResource("7_b2bpc")
 script = ExtResource("8_8ua58")
 
 [node name="Button" type="Button" parent="." unique_id=318966711]
+visible = false
 offset_left = -77.0
 offset_top = 183.0
 offset_right = 74.0
 offset_bottom = 289.0
 
 [node name="camara" type="Sprite2D" parent="." unique_id=281051462]
+visible = false
 position = Vector2(-369, -272)
 rotation = 0.5235988
 texture = ExtResource("9_f1mxi")
 script = ExtResource("10_jtgb7")
+
+[node name="Round1" type="Sprite2D" parent="." unique_id=165504090]
+position = Vector2(-330, 58)
+scale = Vector2(0.5998294, 0.6173709)
+texture = ExtResource("10_drb53")
+script = ExtResource("11_cu60p")
 
 [connection signal="pressed" from="Button" to="round1" method="_on_button_pressed"]
